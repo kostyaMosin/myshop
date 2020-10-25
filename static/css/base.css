@@ -1,0 +1,121 @@
+/* static/css/base.css */
+* {
+    margin: 0;
+    font-family: Verdana, sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+    min-width: 320px;
+}
+
+#header {
+    padding: 10px;
+}
+
+#subheader {
+    padding: 10px;
+    background-color: #e1e1db;
+    height: 20px;
+}
+
+#content {
+    position: absolute;
+    top: 100px;
+    display: flex;
+}
+
+#sidebar {
+    padding: 20px 10px 20px 10px;
+    margin: 5px 0 5px 5px;
+}
+
+#main {
+    margin: 5px 5px 5px 15px;
+    padding: 10px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0 0 0;
+}
+
+.product-list img {
+    width: 200px;
+}
+
+.product-detail {
+    display: flex;
+    margin: 0 10px 10px 10px;
+}
+
+.product-detail-description {
+    margin-left: 10px;
+
+}
+
+.product-detail-description p {
+    margin-top: 10px;
+}
+
+.product-detail img {
+    width: 500px;
+}
+
+.item {
+    margin: 0 10px 0 0;
+    text-align: center;
+    line-height: 15px;
+}
+
+.cart {
+    position: absolute;
+    right: 30px;
+}
+
+.cart-table{
+    position: absolute;
+    left: 20px;
+}
+
+.cart-table img {
+    width: 200px;
+}
+
+.total {
+    background: royalblue;
+    color: white;
+}
+
+.total td {
+    padding: 5px;
+}
+
+.text-right {
+    float: right;
+    margin: 10px 5px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+table {
+    width: 1000px;
+    border-collapse: collapse;
+}
+
+thead {
+    background: royalblue;
+    color: #ffffff;
+}
+
+td {
+    text-align: center;
+}
+
+th {
+    padding: 10px;
+}
